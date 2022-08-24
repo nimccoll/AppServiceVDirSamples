@@ -1,0 +1,38 @@
+﻿<!--
+//===============================================================================
+// Microsoft FastTrack for Azure
+// Azure App Service Virtual Directory Samples
+//===============================================================================
+// Copyright © Microsoft Corporation.  All rights reserved.
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY
+// OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT
+// LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+// FITNESS FOR A PARTICULAR PURPOSE.
+//===============================================================================
+-->
+@{
+    ViewBag.Title = "Sub App Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>App Service Sub Application with Azure AD B2C Authentication</h2>
+        <p>
+            Demonstrates an application hosted in a virtual directory of an Azure App Service with Azure AD B2C Authentication
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Current User Information</h2>
+        <table class="table table-striped table-hover">
+            @foreach (var row in ViewBag.UserInformation)
+            {
+                <tr>
+                    <td>@row.Key</td>
+                    <td>@row.Value</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

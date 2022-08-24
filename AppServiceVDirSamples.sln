@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootApp", "RootApp\RootApp.csproj", "{430E2E8F-37AF-468B-91F6-67746716D5D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubApp", "SubApp\SubApp.csproj", "{5EB97057-6D3D-4BF4-9374-37FA4C0D0319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootB2CApp", "RootB2CApp\RootB2CApp.csproj", "{0804BA3D-6EE2-429B-A4CA-7B75C7874B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubB2CApp", "SubB2CApp\SubB2CApp.csproj", "{6B8098D9-664D-498E-9E0A-5EA0BA7A86AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{430E2E8F-37AF-468B-91F6-67746716D5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430E2E8F-37AF-468B-91F6-67746716D5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430E2E8F-37AF-468B-91F6-67746716D5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430E2E8F-37AF-468B-91F6-67746716D5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB97057-6D3D-4BF4-9374-37FA4C0D0319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB97057-6D3D-4BF4-9374-37FA4C0D0319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB97057-6D3D-4BF4-9374-37FA4C0D0319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB97057-6D3D-4BF4-9374-37FA4C0D0319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0804BA3D-6EE2-429B-A4CA-7B75C7874B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0804BA3D-6EE2-429B-A4CA-7B75C7874B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0804BA3D-6EE2-429B-A4CA-7B75C7874B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0804BA3D-6EE2-429B-A4CA-7B75C7874B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8098D9-664D-498E-9E0A-5EA0BA7A86AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8098D9-664D-498E-9E0A-5EA0BA7A86AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8098D9-664D-498E-9E0A-5EA0BA7A86AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8098D9-664D-498E-9E0A-5EA0BA7A86AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5B2900C-3C0D-4427-BCAF-6B2ECDC566A5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nimccoll.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RootApp\\RootApp.csproj
+		SccProjectName1 = RootApp
+		SccLocalPath1 = RootApp
+		SccProjectUniqueName2 = RootB2CApp\\RootB2CApp.csproj
+		SccProjectName2 = RootB2CApp
+		SccLocalPath2 = RootB2CApp
+		SccProjectUniqueName3 = SubApp\\SubApp.csproj
+		SccProjectName3 = SubApp
+		SccLocalPath3 = SubApp
+		SccProjectUniqueName4 = SubB2CApp\\SubB2CApp.csproj
+		SccProjectName4 = SubB2CApp
+		SccLocalPath4 = SubB2CApp
+	EndGlobalSection
+EndGlobal
